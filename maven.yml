@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: nickeynicks/web-app:latest
+        image: nickeynicks/web-app
         ports:
         - containerPort: 8080
 ---
