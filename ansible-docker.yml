@@ -1,6 +1,5 @@
 ---
-- hosts: localhost
-    connection: local
+- hosts: localmachine
   become: true
   tasks:
     - name: Install python
