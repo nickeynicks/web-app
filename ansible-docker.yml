@@ -1,5 +1,5 @@
 ---
-- hosts: localmachine
+- hosts: localhost
     connection: local
   become: true
   tasks:
